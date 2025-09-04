@@ -6,4 +6,14 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Configurations\" />
+      <Folder Include="Repositories\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Hangman.Application\Hangman.Application.csproj" />
+      <ProjectReference Include="..\Hangman.Domain\Hangman.Domain.csproj" />
+    </ItemGroup>
+
 </Project>
